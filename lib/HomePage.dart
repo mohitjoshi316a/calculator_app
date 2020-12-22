@@ -58,7 +58,7 @@ class _HomePageState extends State<HomePage> {
                 setState(() {
                   t1.clear();
                   t2.clear();
-                  res = 0;                
+                  res = 0;
                 });
               },
             ),
@@ -145,6 +145,17 @@ class _HomePageState extends State<HomePage> {
                   child: Text("/"),
                 ),
               ],
+            ),
+            SizedBox(
+              height: 20.0,
+            ),
+            Text(
+              "@mohitjoshi316a",
+              style: TextStyle(
+                fontSize: 10.0,
+                fontStyle: FontStyle.italic,
+                color: Colors.grey,
+              ),
             ),
           ],
         ),
